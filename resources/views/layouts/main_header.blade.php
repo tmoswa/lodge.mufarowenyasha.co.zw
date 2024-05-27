@@ -265,7 +265,7 @@ body.rtl .contact-form-wrap .section-title {
 
 
         <div class="btn-wrap text-center" style="padding-top:16px;">
-            <a href="https://victorygardens.mufarowenyasha.co.zw" target="_blank"
+            <a href="https://victorygardens.mufarowenyasha.com" target="_blank"
                class="button"><i class="fa fa-home"></i><span>Click to View Our Athlone Victory Gardens Lodge</span></a>
         </div>
 

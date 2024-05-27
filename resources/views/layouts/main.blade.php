@@ -217,7 +217,7 @@ function OpenWhatsapp(){
 
     </ul>
     </li>
-    <li id="menu-item-275" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-275 dropdown"><a title="Extras" href="https://victorygardens.mufarowenyasha.co.zw" class="dropdown-toggle">Subsiduries <span class="caret"></span></a>
+    <li id="menu-item-275" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-275 dropdown"><a title="Extras" href="https://victorygardens.mufarowenyasha.co.zw" class="dropdown-toggle">Subsidiaries <span class="caret"></span></a>
     <ul role="menu" class=" dropdown-menu">
         <li id="menu-item-274" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-274">
             <a title="Hotel Cart" href="#services" style="color: white;">Athlone Victory Gardens Lodge</a>
@@ -288,7 +288,7 @@ function OpenWhatsapp(){
 
 
         <div class="btn-wrap text-center" style="padding-top:16px;">
-            <a href="https://victorygardens.mufarowenyasha.co.zw" target="_blank"
+            <a href="https://victorygardens.mufarowenyasha.com" target="_blank"
                class="button"><i class="fa fa-home"></i><span>Click To View Our Athlone Victory Gardens Lodge</span></a>
         </div>
 

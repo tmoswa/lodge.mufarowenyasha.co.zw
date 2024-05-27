@@ -105,10 +105,10 @@ $days = $date1->diffInDays($date2);
         $to_email = $request->input('email');
         $enquirydata = Booking::create($input);
 
-        $whole_message_email0="client named ".$to_name." have booked online with us, the contact they put are: Phone:".$request->input('phone')." ,Email: ".$request->input('email')." ,for suite: ".$request->input('room_name')." ,for the amount: of $".$request->input('amount').". Please get intouch with the client ASAP as they await your call";
+        $whole_message_email0="client named ".$to_name." have booked online with us, the client contact details are: Phone:".$request->input('phone')." , Email: ".$request->input('email') ." ,for suite: ".$request->input('room_name')." ,for the amount: of $".$request->input('amount').". Please get intouch with the client ASAP as he/she await your call";
 
 
-        $whole_message_email="Thank you for booking with us, We will be contacting you shortly";
+        $whole_message_email="Thank you for booking with us, We will be contacting you shortly.";
 
         //email starts
 $data = array("name"=>$to_name, "body" => $whole_message_email);
@@ -149,7 +149,7 @@ $message->from("mufarowenyasha@gmail.com","Mufarowenyasha Mountain Lodge");
         $children=$request->input('children');
 
         return redirect()->route('suites')
-                    ->with('success', 'Below rooms are available at Mufaro Wenyasha Mountain Lodge, contact us or book online and we will contact you shortly.');
+                    ->with('success', 'Below rooms are available at Mufaro Wenyasha Mountain Lodge, contact us on +263 77 228 4387 / +263 77 356 1596 or book online and we will contact you shortly.');
 
     }
 
