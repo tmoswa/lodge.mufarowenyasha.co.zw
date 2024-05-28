@@ -512,8 +512,16 @@
                     <h3>Mufaro Wenyasha Mountain Lodge</h3><p>Number 8189 Simpson Rd, Gweru, Zimbabwe</p><br><p><strong>Email: </strong> mufarowenyasha@gmail.com</p><p><strong>Phone number: </strong>+263 542 225 219</p><p><strong>Whatsapp: </strong>+263 772 284 387</p>
                       <section class="map-wrapper contact-map" id="contact-map-wrapper">
 
-                          <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAx6o885dexPTzmNY4oLum98AYLKoXQPpY&q=Mufaro%Wenyasha%Mountain%lodge%Gweru%Zimbabwe" title="description"></iframe>
-                      </section>
+                            </section>
+                            <input type="hidden" id="contact-map-latitude"
+                                   value="-19.468944549560547">
+                            <input type="hidden" id="contact-map-longitude"
+                                   value="29.827211380004883">
+                            <input type="hidden" id="contact-map-link"
+                                   value="https://www.google.com/maps/embed/v1/place?key=AIzaSyAx6o885dexPTzmNY4oLum98AYLKoXQPpY
+  &q=Mufarowe+Wenyasha,Gweru+Zimbabwe">
+
+                                                        <input type="hidden" id="is_template_home" value="1">
                                         </div>
             </div>
         </div>
