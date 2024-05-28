@@ -165,7 +165,8 @@ function OpenWhatsapp(){
 }
 </script>
 
-
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAx6o885dexPTzmNY4oLum98AYLKoXQPpY&callback=console.debug&libraries=maps,marker&v=beta">
+    </script>
 		</head>
 
 <body class="home page-template page-template-page-templates page-template-template-home page-template-page-templatestemplate-home-php page page-id-266">
