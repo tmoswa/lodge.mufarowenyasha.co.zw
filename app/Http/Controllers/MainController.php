@@ -105,7 +105,7 @@ $days = $date1->diffInDays($date2);
         $to_email = $request->input('email');
         $enquirydata = Booking::create($input);
 
-        $whole_message_email0="client named ".$to_name." have booked online with us, the client contact details are: Phone:".$request->input('phone')." , Email: ".$request->input('email') ." ,for suite: ".$request->input('room_name')." ,for the amount: of $".$request->input('amount').". Please get intouch with the client ASAP as he/she await your call";
+        $whole_message_email0="client named ".$to_name." has booked online with us, the client contact details are: Phone:".$request->input('phone')." , Email: ".$request->input('email') ." ,for suite: ".$request->input('room_name')." ,for the amount: of $".$request->input('amount').". Please get intouch with the client ASAP as he/she await your call";
 
 
         $whole_message_email="Thank you for booking with us, We will be contacting you shortly.";
