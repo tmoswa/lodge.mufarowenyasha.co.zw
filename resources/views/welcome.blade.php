@@ -6,11 +6,7 @@
                     <div class="hp-banner-wrapper" id="#about">
                     <div class="slider-item-wrapper">
 
-                        <div class="slider-item slider" style='background-image:url("{{URL::to("wp-content/uploads/2020/gallery/DCS 11085.jpg")}}")'>
-                            <div class="banner-text-wrap">{
 
-                                                            </div>
-                        </div>
 
 
                                                                 <div class="slider-item slider" style='background-image:url("{{URL::to("wp-content/uploads/2020/slides/1.jpg")}}")'>
@@ -35,17 +31,17 @@
                                                             </div>
                         </div>
 
-
-                                                      <div class="slider-item slider" style='background-image:url("{{URL::to("wp-content/uploads/2020/gallery/DCS 11084.jpg")}}")'>
+                        <div class="slider-item slider" style='background-image:url("{{URL::to("wp-content/uploads/2020/gallery/DCS 11084.jpg")}}")'>
                             <div class="banner-text-wrap">
-                            <h2>Indulge in Luxury Stay</h2>
-                            <p>Savor the best of Midlands hospitality</p>
-                                                                    <div class="btn-wrap">
-                                        <a href="#accomodation"
-                                           class="button"><span>Explore More</span></a>
-                                    </div>
-                                                            </div>
+                                <h2>Indulge in Luxury Stay</h2>
+                                <p>Savor the best of Midlands hospitality</p>
+                                <div class="btn-wrap">
+                                    <a href="#accomodation"
+                                       class="button"><span>Explore More</span></a>
+                                </div>
+                            </div>
                         </div>
+
 
 
 
