@@ -36,31 +36,31 @@ img.emoji {
 
 
 
-	
+
 <div class="section-content section">
     <div class="container">
         <div class="row">
-            
+
             @if(session('success'))
 
             <div class="alert alert-success">
-            
+
               {{ session('success') }}
-            
+
             </div>
             @endif
-                
-                
+
+
 <ul class="rooms tp-hotel-booking hb-catalog-column-4">
-                
-                
-                    
+
+
+
 <li id="room-165" class="post-165 hb_room type-hb_room status-publish has-post-thumbnail hentry hb_room_type-deluxed">
 
 
 <div class="summary entry-summary">
 
-    
+
 <div class="media">
 <a href="{{route('book','royalsuite')}}"><img src="{{URL::to('wp-content/uploads/2020/royal/1.jpg')}}" width="270" height="270" alt=""/></a>
 </div>
@@ -74,8 +74,8 @@ img.emoji {
 <div class="price">
     <span class="title-price">Price</span>
 
-                <span class="price_value price_min">&#36;80.00</span>
-    
+                <span class="price_value price_min">&#36;100.00</span>
+
     <span class="unit">12.00HRS-10.00HRS</span>
 </div>
 </a>
@@ -92,14 +92,14 @@ img.emoji {
 </li>
 
 
-                
-                    
+
+
 <li id="room-163" class="post-163 hb_room type-hb_room status-publish has-post-thumbnail hentry hb_room_type-simple">
 
 
 <div class="summary entry-summary">
 
-    
+
 <div class="media">
 <a href="{{route('book','honeymoonsuite')}}"><img src="{{URL::to('wp-content/uploads/2020/honeymoon/DCS 11061.jpg')}}" width="270" height="270" alt=""/></a>
 </div>
@@ -113,8 +113,8 @@ img.emoji {
 <div class="price">
     <span class="title-price">Price</span>
 
-                <span class="price_value price_min">&#36;80.00</span>
-    
+                <span class="price_value price_min">&#36;100.00</span>
+
     <span class="unit">12.00HRS-10.00HRS</span>
 </div>
 </a>
@@ -131,14 +131,14 @@ img.emoji {
 </li>
 
 
-                
-                    
+
+
 <li id="room-161" class="post-161 hb_room type-hb_room status-publish has-post-thumbnail hentry hb_room_type-deluxed hb_room_type-simple">
 
 
 <div class="summary entry-summary">
 
-    
+
 <div class="media">
 <a href="{{route('book','familysuite')}}"><img src="{{URL::to('wp-content/uploads/2020/family/DCS 11133.jpg')}}" width="270" height="270" alt=""/></a>
 </div>
@@ -153,7 +153,7 @@ img.emoji {
     <span class="title-price">Price</span>
 
                 <span class="price_value price_min">&#36;70.00</span>
-    
+
     <span class="unit">12.00HRS-10.00HRS</span>
 </div>
 </a>
@@ -173,14 +173,14 @@ img.emoji {
 </li>
 
 
-                
-                    
+
+
 <li id="room-114" class="post-114 hb_room type-hb_room status-publish has-post-thumbnail hentry hb_room_type-simple">
 
 
 <div class="summary entry-summary">
 
-    
+
 <div class="media">
     <a href="{{route('book','deluxesuite')}}"><img src="{{URL::to('wp-content/uploads/2020/deluxe/DCS 11105.jpg')}}" width="270" height="270" alt=""/></a>
 </div>
@@ -195,7 +195,7 @@ img.emoji {
     <span class="title-price">Price</span>
 
                 <span class="price_value price_min">&#36;55.00</span>
-    
+
     <span class="unit">12.00HRS-10.00HRS</span>
 </div>
 </a>
@@ -213,14 +213,14 @@ img.emoji {
 </li>
 
 
-                
-                    
+
+
 <li id="room-112" class="post-112 hb_room type-hb_room status-publish has-post-thumbnail hentry hb_room_type-deluxed">
 
 
 <div class="summary entry-summary">
 
-    
+
 <div class="media">
     <a href="{{route('book','standardsuite')}}"><img src="{{URL::to('wp-content/uploads/2020/standard/DCS 11291.jpg')}}" width="270" height="270" alt=""/></a>
 </div>
@@ -235,7 +235,7 @@ img.emoji {
     <span class="title-price">Price</span>
 
                 <span class="price_value price_min">&#36;45.00</span>
-    
+
     <span class="unit">12.00HRS-10.00HRS</span>
 </div>
 </a>
@@ -253,14 +253,14 @@ img.emoji {
 </li>
 
 
-                
-                    
+
+
 <li id="room-107" class="post-107 hb_room type-hb_room status-publish has-post-thumbnail hentry hb_room_type-deluxed">
 
 
 <div class="summary entry-summary">
 
-    
+
 <div class="media">
     <a href="{{route('book','budgetsuite')}}"><img src="{{URL::to('wp-content/uploads/2020/budget/DCS 11281.jpg')}}" width="270" height="270" alt=""/></a>
 </div>
@@ -275,7 +275,7 @@ img.emoji {
     <span class="title-price">Price</span>
 
                 <span class="price_value price_min">&#36;35.00</span>
-    
+
     <span class="unit">12.00HRS-10.00HRS</span>
 </div>
 </a>
@@ -293,14 +293,14 @@ img.emoji {
 </li>
 
 
-                
-                
+
+
 </ul>
 
 
-                
-            
-            
+
+
+
                         </div>
     </div>
 </div>

@@ -31,22 +31,22 @@ img.emoji {
                 </div>
             </div>
         </div>
-        
+
 </header>
 
 
 
-	
+
 <div class="section-content section sidebar-page">
     <div class="container">
         <div class="row">
                         <div class="col-md-8 pull-left">
                                 <div id="room-112" class="hb_single_room post-112 hb_room type-hb_room status-publish has-post-thumbnail hentry hb_room_type-deluxed">
 
-                    
+
                     <div class="summary entry-summary">
 
-                        
+
 
 <div class="title">
     <h4>
@@ -59,7 +59,7 @@ img.emoji {
         <span class="title-price">Price</span>
 
 		            <span class="price_value price_min">&#36;{{$current_room->price}}.00</span>
-		
+
         <span class="unit">Room(checkin 12.00 Noon -checkout out 10.00 AM)</span>
     </div>
 
@@ -114,7 +114,7 @@ img.emoji {
                  data-src="{{URL::to($current_room->picture10)}}"></div>
         @endif
 		    </div>
-          
+
     <script type="text/javascript">
         (function ($) {
             "use strict";
@@ -144,15 +144,15 @@ img.emoji {
                 <a href="#hb_room_reviews">
 										Reviews					<span class="comment-count">({{$current_count}})</span>                </a>
             </li>
-		       
+
 		    </ul>
 
-	
+
     <div class="hb_single_room_tabs_content">
 
 		            <div id="hb_room_description" class="hb_single_room_tab_details">
 
-				
+
                     <p style="text-align: justify;">{{$current_room->description}}</p>
 
 				            </div>
@@ -161,7 +161,7 @@ img.emoji {
 				            </div>
 		            <div id="hb_room_reviews" class="hb_single_room_tab_details">
 
-				
+
 <div id="reviews">
     <div id="comments">
         <h2>
@@ -170,7 +170,7 @@ img.emoji {
                     <p class="hb-noreviews"><strong>{{$cr->comment}} :</strong>{{$cr->comment}}. </p>
         </br>
         <div class="testimonial-rating">
-        <?php 
+        <?php
         $i=0;
         for($i=0; $i<$cr->rating; $i++)
         {
@@ -180,22 +180,22 @@ img.emoji {
         }
 ?>
 
-     </div>    
+     </div>
 
-        
-         
+
+
 
 @endforeach
 </div>
-  
 
-	
+
+
     <div class="clear"></div>
 </div>
 
-				
+
 				            </div>
-		           
+
 		    </div>
 
 </div>
@@ -206,24 +206,24 @@ img.emoji {
 
                         </div>
 
-            
+
                 <div class="col-md-4 sidebar pull-right">
 
                     <div id="secondary">
-                        <section id="hb_widget_cart-1" class="widget widget_hb_widget_cart">   
+                        <section id="hb_widget_cart-1" class="widget widget_hb_widget_cart">
                                  <div id="hotel_booking_mini_cart_5f37d704bcf4d" class="hotel_booking_mini_cart">
-			
+
                 <h3>To Book {{$current_room->name}}</h3>
 
-			
-			
+
+
                 <p class="hb_mini_cart_empty">Fill in your details below and Proceed.</p>
                 @if(session('success'))
 
                 <div class="alert alert-success">
-                
+
                   {{ session('success') }}
-                
+
                 </div>
                 @endif
                 @if(session('error'))
@@ -238,14 +238,14 @@ img.emoji {
 		</section><section id="hb_widget_search-1" class="widget widget_hb_widget_search">
 <div id="hotel-booking-search" class="hotel-booking-search">
 	        <h3>Check Availability</h3>
-	
+
 <form  action="{{route('room_booking')}}" method="POST" >
         @csrf
         <ul class="hb-form-table">
             <li class="hb-form-field">
 				<label>Arrival Date</label>                <div class="hb-form-field-input hb_input_field">
                     <input type="text" name="checkin_date" id="check_in_date_5f37d704bdf12"
-                           class="hb_input_date_check" value="" 
+                           class="hb_input_date_check" value=""
                            placeholder="Arrival Date"/>
                 </div>
             </li>
@@ -253,7 +253,7 @@ img.emoji {
             <li class="hb-form-field">
 				<label>Departure Date</label>                <div class="hb-form-field-input hb_input_field">
                     <input type="text" name="checkout_date" id="check_out_date_5f37d704bdf12"
-                           class="hb_input_date_check" value="" 
+                           class="hb_input_date_check" value=""
                            placeholder="Departure Date"/>
                 </div>
             </li>
@@ -280,16 +280,16 @@ img.emoji {
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
-                    
+
                     </select>                </div>
             </li>
         </ul>
     </br>
         <input type="hidden" id="nonce" name="room_name" value="{{$current_room->name}}" />
-        
+
             <input type="submit" style="font-size:16px; color:black; background-color:orange" class="btn btn-primary" value="Proceed"/>
         </li>
-    
+
     </form>
 
 
@@ -300,14 +300,14 @@ img.emoji {
 
                 </div>
                     </div>
-  
+
     <div class="row" style="border: 0px solid #fff; " >
         <div class="col-8" style="border: 0px solid #fff;">
     <div id="" style="border: 0px solid #fff;" >
         <div id="" style="border: 0px solid #fff;">
                 <div id="respond" class="" style="border: 0px solid #fff;">
     <h3 id="reply-title" class="comment-reply-title">Enter Information below to review &ldquo;{{$current_room->name}}&rdquo; <small><a rel="nofollow" id="cancel-comment-reply-link" href="index.html#respond" style="display:none;">Cancel reply</a></small></h3>
-    
+
     <form action="{{route('review_post')}}" method="POST">
         @csrf
         <table style="60%" style="border: 0px solid #fff;">
@@ -318,19 +318,19 @@ img.emoji {
         <input type="hidden" name="room_name" value="{{$current_room->name}}"/>
             <textarea id="comment" name="comment" cols="30" rows="2" aria-required="true"></textarea></p>
         </td><td>
-            <p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> 
+            <p class="comment-form-author"><label for="author">Name <span class="required">*</span></label>
                 <input id="author" name="name" required type="text" value="" size="30" aria-required="true" /></p>
-    <p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> 
+    <p class="comment-form-email"><label for="email">Email <span class="required">*</span></label>
         <input id="email" name="email" required type="text" value="" size="30" aria-required="true" /></p>
         <p class="comment-form-cookies-consent">
         <input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" required value="yes" />
          <label for="wp-comment-cookies-consent">Save my data, and publish on this website reviews.</label></p>
-       <p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Submit" /> 
+       <p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Submit" />
         <input type='hidden' name='comment_post_ID' value='112' id='comment_post_ID' />
     <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
     </p></td>
-    
-        
+
+
     </tr></table></form>	</div><!-- #respond -->
             </div>
     </div>
@@ -342,16 +342,16 @@ img.emoji {
     <div class="row">
     <div class="hb_related_other_room has_slider">
         <h3 class="title">Other Suites</h3>
-				
+
 <ul class="rooms tp-hotel-booking hb-catalog-column-4" style="100%">
-		
-			
+
+
 <li id="room-165" class="post-165 hb_room type-hb_room status-publish has-post-thumbnail hentry hb_room_type-deluxed">
 
-	
+
     <div class="summary entry-summary">
 
-		
+
 <div class="media">
     <a href="{{route('book','honeymoonsuite')}}"><img src="{{URL::to('wp-content/uploads/2020/honeymoon/DCS 11061.jpg')}}" width="270" height="270" alt=""/></a>
 </div>
@@ -365,8 +365,8 @@ img.emoji {
     <div class="price">
         <span class="title-price">Price</span>
 
-		            <span class="price_value price_min">&#36;80.00</span>
-		
+		            <span class="price_value price_min">&#36;100.00</span>
+
         <span class="unit">12.00HRS-10.00HRS</span>
     </div>
 
@@ -375,16 +375,16 @@ img.emoji {
 
     </div><!-- .summary -->
 
-	
+
 </li>
 
 
 <li id="room-1659" class="post-165 hb_room type-hb_room status-publish has-post-thumbnail hentry hb_room_type-deluxed">
 
-	
+
     <div class="summary entry-summary">
 
-		
+
 <div class="media">
     <a href="{{route('book','royalsuite')}}"><img src="{{URL::to('wp-content/uploads/2020/royal/1.jpg')}}" width="270" height="270" alt=""/></a>
 </div>
@@ -398,8 +398,8 @@ img.emoji {
     <div class="price">
         <span class="title-price">Price</span>
 
-		            <span class="price_value price_min">&#36;80.00</span>
-		
+		            <span class="price_value price_min">&#36;100.00</span>
+
         <span class="unit">12.00HRS-10.00HRS</span>
     </div>
 
@@ -408,18 +408,18 @@ img.emoji {
 
     </div><!-- .summary -->
 
-	
+
 </li>
 
 
-		
-			
+
+
 <li id="room-161" class="post-161 hb_room type-hb_room status-publish has-post-thumbnail hentry hb_room_type-deluxed hb_room_type-simple">
 
-	
+
     <div class="summary entry-summary">
 
-		
+
 <div class="media">
     <a href="{{route('book','familysuite')}}"><img src="{{URL::to('wp-content/uploads/2020/family/DCS 11133.jpg')}}" width="270" height="270" alt=""/></a>
 </div>
@@ -434,7 +434,7 @@ img.emoji {
         <span class="title-price">Price</span>
 
 		            <span class="price_value price_min">&#36;70.00</span>
-		
+
         <span class="unit">12.00HRS-10.00HRS</span>
     </div>
 
@@ -443,19 +443,19 @@ img.emoji {
 
     </div><!-- .summary -->
 
-	
+
 </li>
 
 
 </ul>
 <ul class="rooms tp-hotel-booking hb-catalog-column-4" style="100%">
-			
+
 <li id="room-107" class="post-107 hb_room type-hb_room status-publish has-post-thumbnail hentry hb_room_type-deluxed">
 
-	
+
     <div class="summary entry-summary">
 
-		
+
 <div class="media">
     <a href="{{route('book','deluxesuite')}}"><img src="{{URL::to('wp-content/uploads/2020/deluxe/DCS 11105.jpg')}}" width="270" height="270" alt=""/></a>
 </div>
@@ -470,7 +470,7 @@ img.emoji {
         <span class="title-price">Price</span>
 
 		            <span class="price_value price_min">&#36;55.00</span>
-		
+
         <span class="unit">12.00HRS-10.00HRS</span>
     </div>
 
@@ -479,15 +479,15 @@ img.emoji {
 
     </div><!-- .summary -->
 
-	
+
 </li>
 
 <li id="room-1070" class="post-107 hb_room type-hb_room status-publish has-post-thumbnail hentry hb_room_type-deluxed">
 
-	
+
     <div class="summary entry-summary">
 
-		
+
 <div class="media">
     <a href="{{route('book','standardsuite')}}"><img src="{{URL::to('wp-content/uploads/2020/standard/DCS 11291.jpg')}}" width="270" height="270" alt=""/></a>
 </div>
@@ -502,7 +502,7 @@ img.emoji {
         <span class="title-price">Price</span>
 
 		            <span class="price_value price_min">&#36;45.00</span>
-		
+
         <span class="unit">12.00HRS-10.00HRS</span>
     </div>
 
@@ -511,15 +511,15 @@ img.emoji {
 
     </div><!-- .summary -->
 
-	
+
 </li>
 
 <li id="room-1071" class="post-107 hb_room type-hb_room status-publish has-post-thumbnail hentry hb_room_type-deluxed">
 
-	
+
     <div class="summary entry-summary">
 
-		
+
 <div class="media">
     <a href="{{route('book','budgetsuite')}}"><img src="{{URL::to('wp-content/uploads/2020/budget/DCS 11281.jpg')}}" width="270" height="270" alt=""/></a>
 </div>
@@ -534,7 +534,7 @@ img.emoji {
         <span class="title-price">Price</span>
 
 		            <span class="price_value price_min">&#36;35.00</span>
-		
+
         <span class="unit">12.00HRS-10.00HRS</span>
     </div>
 
@@ -543,10 +543,10 @@ img.emoji {
 
     </div><!-- .summary -->
 
-	
+
 </li>
-		
-		
+
+
 </ul>
 
     </div>

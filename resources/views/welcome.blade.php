@@ -161,7 +161,7 @@
 
                                             <div class="counter-item">
                                                 <span class="timer" data-from="0"
-                                                      data-to="4" data-speed="2000"
+                                                      data-to="2" data-speed="2000"
                                                       data-refresh-interval="50"></span>
                                                         <div class="counter-info">
                                                             <h3>Deluxe Rooms</h3>
@@ -169,7 +169,7 @@
                                                     </div>
                                                                                                                                     <div class="counter-item">
                                                 <span class="timer" data-from="0"
-                                                      data-to="2" data-speed="2000"
+                                                      data-to="4" data-speed="2000"
                                                       data-refresh-interval="50"></span>
                                                         <div class="counter-info">
                                                             <h3>Standard Rooms</h3>
@@ -178,7 +178,7 @@
 
                                                                                                                                  <div class="counter-item">
                                                 <span class="timer" data-from="0"
-                                                      data-to="2" data-speed="2000"
+                                                      data-to="6" data-speed="2000"
                                                       data-refresh-interval="50"></span>
                                                         <div class="counter-info">
                                                             <h3>Budget Rooms</h3>
@@ -209,7 +209,7 @@
             <div class="row">
                 <div class="section-title">
                     <h2>Rooms &amp; Suites</h2>
-                    <p>No less than 9 different rooms &amp; suites of great charm</p>
+                    <p>No less than 15 different rooms &amp; suites of great charm</p>
                     <div class="btn-wrap" style="padding-top:16px;">
                         <a href="{{url('/rooms')}}"
                            class="button"><i class="fa fa-calendar"></i><span> View Our Rooms</span></a>
@@ -223,7 +223,7 @@
                         <h2><a href="{{route('book','honeymoonsuite')}}"> Honey Moon Suite</a>
                         </h2>
 
-                                <span class="price_value price_min">&nbsp;&#36;80.0</span>
+                                <span class="price_value price_min">&nbsp;&#36;100.0</span>
 
                                                             <span class="unit">/&nbsp;Room</span>
                                                 </div>
@@ -236,7 +236,7 @@
                             <h2><a href="{{route('book','royalsuite')}}">Royal Suite</a>
                             </h2>
 
-                                    <span class="price_value price_min">&nbsp;&#36;80.0</span>
+                                    <span class="price_value price_min">&nbsp;&#36;100.0</span>
 
                                                                 <span class="unit">/&nbsp;Room</span>
                                                     </div>
@@ -509,7 +509,7 @@
                     </form>
                 </div>
                 <div class="contact-info">
-                    <h3>Mufaro Wenyasha Mountain Lodge</h3><p>Number 8189 Simpson Rd, Gweru, Zimbabwe</p><br><p><strong>Email: </strong> mufarowenyasha@gmail.com</p><p><strong>Phone number: </strong>+263 542 225 219</p><p><strong>Whatsapp: </strong>+263 772 284 387</p>
+                    <h3>Mufaro Wenyasha Mountain Lodge</h3><p>Number 8189 Simpson Rd, Gweru, Zimbabwe</p><br><p><strong>Email: </strong> mufarowenyasha@gmail.com</p><p><strong>Telephone number: </strong>054-2233129</p><p><strong>Whatsapp: </strong>+263 772 284 387</p>
                       <section>
                           <div style="width: 100%"><iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Mufaro%20Wenyasha%20Mountain%20Lodge+(Mufaro%20Wenyasha%20Mountain%20Lodge)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps vehicle tracker</a></iframe></div>
                           </section>
